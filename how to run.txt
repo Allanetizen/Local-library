@@ -1,1 +1,1 @@
-SET DEBUG=express-locallibrary-tutorial:* |& npm run devstart
+SET DEBUG=local-library:* |& npm run devstart
