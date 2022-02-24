@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "devstart": "node ./bin/www",
-    "serverstart": "SET DEBUG=local-library:* & npm run devstart"
+    "devstart": "node ./bin/www"
+    
   },
   "dependencies": {
     "async": "^3.2.3",
