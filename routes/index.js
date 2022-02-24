@@ -5,7 +5,7 @@ var router = express.Router();
 //next makes the function below a middleware function 
 //can be used to add multiple route handlers to the '/' route path
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.redirect('/catalog');
 });
 
 
